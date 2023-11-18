@@ -1,0 +1,259 @@
+[
+    {
+        "name": "Apna College",
+        "description": "HTML Tutorial for Beginners | Complete HTML with Notes & Code",
+        "url": "https://www.youtube.com/watch?v=HcOc7P5BMi4",
+        "subj": "HTML"
+    },
+    {
+        "name": "Thapa Technical",
+        "description": "HTML Complete Tutorial for Beginners in Hindi🔥Free Notes + Codes",
+        "url": "https://www.youtube.com/watch?v=5ccq_nLHneE",
+        "subj": "HTML"    
+    },
+    {
+        "name": "CodeWithHarry",
+        "description": "HTML Tutorial For Beginners In Hindi (With Notes) 🔥",
+        "url": "https://www.youtube.com/watch?v=BsDoLVMnmZs",
+        "subj": "HTML"
+    },
+    {
+        "name": "CodeHelp - By Babbar",
+        "description": "Complete HTML Tutorial in 1 Video || in HINDI (2023)",
+        "url": "https://www.youtube.com/watch?v=k7ELO356Npo",
+        "subj": "HTML"
+    },
+    {
+        "name" : "CodeWithHarry",
+        "description" : "JavaScript Tutorials for Beginners in Hindi",
+        "url" : "https://www.youtube.com/watch?v=ER9SspLe4Hg&list=PLu0W_9lII9ahR1blWXxgSlL4y9iQBnLpR",
+        "subj" : "JavaScript"
+
+    },
+    {
+        "name" : "Apna College",
+        "description" : "JavaScript Tutorial by Apna College",
+        "url" : "https://www.youtube.com/watch?v=B7wHpNUUT4Y",
+        "subj" : "JavaScript"
+
+    },
+    {
+        "name" : "Apna College",
+        "description" : "CSS Tutorial for Beginners | Complete CSS with Project, Notes & Code",
+        "url" : "https://www.youtube.com/watch?v=ESnrn1kAD4E",
+        "subj" : "CSS"
+
+    },
+    {
+        "name" : "CodeWithHarry",
+        "description" : "CSS Tutorial In Hindi (With Notes) 🔥",
+        "url" : "https://www.youtube.com/watch?v=Edsxf_NBFrw",
+        "subj" : "CSS"
+
+    },
+    {
+        "name" : "Thapa Technical ",
+        "description" : "CSS Complete Tutorial for Beginners in Hindi🔥Free Notes + Codes",
+        "url" : "https://www.youtube.com/watch?v=MSICFljRcb4",
+        "subj" : "CSS"
+
+    },
+    {
+        "name" : "College Wallah",
+        "description" : "CSS Tutorial For Beginners In Hindi | CSS In One Shot",
+        "url" : "https://www.youtube.com/watch?v=EUtlj7xdO1o",
+        "subj" : "CSS"
+
+    },
+    {
+        "name" : "Apna College",
+        "description" : "C Language Tutorial for Beginners (with Notes & Practice Questions)",
+        "url" : "https://www.youtube.com/watch?v=irqbmMNs2Bo",
+        "subj" : "C"
+
+    },
+    {
+        "name" : "CodeWithHarry",
+        "description" : "C Programming Tutorial For Beginners: Learn C In Hindi",
+        "url" : "https://www.youtube.com/watch?v=YXcgD8hRHYY",
+        "subj" : "C"
+
+    },
+    {
+        "name" : "CodeHelp - by Babbar",
+        "description" : "Complete C++ Placement DSA Course",
+        "url" : "https://www.youtube.com/watch?v=WQoB2z67hvY&list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA",
+        "subj" : "C++"
+
+    },
+    {
+        "name" : "Apna College",
+        "description" : " C++ Full Course |  C++ Tutorial | Data Structures & Algorithms",
+        "url" : "https://www.youtube.com/watch?v=z9bZufPHFLU&list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ",
+        "subj" : "C++"
+
+    },
+    {
+        "name" : "Apna College",
+        "description" : " Java Complete Course | Placement Series",
+        "url" : "https://www.youtube.com/watch?v=yRpLlJmRo2w&list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop",
+        "subj" : "Java"
+
+    },
+    {
+        "name" : "CodeWithHarry",
+        "description" : " Python for Beginners (Full Course) | #100DaysOfCode Programming Tutorial in Hindi",
+        "url" : "https://www.youtube.com/watch?v=7wnove7K-ZQ&list=PLu0W_9lII9agwh1XjRt242xIpHhPT2llg",
+        "subj" : "Python"
+
+    },
+    {
+        "name" : "Apna College",
+        "description" : "Python Tutorial for Beginners",
+        "url" : "https://www.youtube.com/watch?v=vLqTf2b6GZw",
+        "subj" : "Python"
+
+    },
+    {
+        "name" : "College Wallah",
+        "description" : "Python Full Course For Beginners [Tutorial] 2023 | Python One Shot | College Wallah",
+        "url" : "https://www.youtube.com/watch?v=XnSasPR2KJI",
+        "subj" : "Python"
+
+    },
+    {
+        "name" : "CodeWithHarry",
+        "description" : "React Js Tutorials in Hindi",
+        "url" : "https://www.youtube.com/watch?v=-mJFZp84TIY&list=PLu0W_9lII9agx66oZnT6IyhcMIbUMNMdt",
+        "subj" : "React.js"
+
+    },
+    {
+        "name" : "Thapa Technical ",
+        "description" : "React JS Tutorial in Hindi by Thapa Technical",
+        "url" : "https://www.youtube.com/watch?v=tiLWCNFzThE&list=PLwGdqUZWnOp3aROg4wypcRhZqJG3ajZWJ",
+        "subj" : "React.js"
+    },
+    {
+        "name" : "Code Step By Step",
+        "description" : "VUE JS Tutorial in Hindi",
+        "url" : "https://www.youtube.com/watch?v=h18hbBNxXac&list=PL8p2I9GklV45e7L_qC_mntM7FhSIV8pqa",
+        "subj" : "Vue.js"
+    },
+    {
+        "name" : "Codevolution",
+        "description" : "VUE JS 3 Tutorial",
+        "url" : "https://www.youtube.com/watch?v=ccsz9FRy-nk&list=PLC3y8-rFHvwgeQIfSDtEGVvvSEPDkL_1f",
+        "subj" : "Vue.js"
+    },
+    {
+        "name" : "CodeWithHarry",
+        "description" : "Angular Tutorial in Hindi",
+        "url" : "https://www.youtube.com/watch?v=0LhBvp8qpro",
+        "subj" : "Angular.js"
+    },
+    {
+        "name" : "Codevolution",
+        "description" : "Angular Tutorial ",
+        "url" : "https://www.youtube.com/watch?v=0eWrpsCLMJQ&list=PLC3y8-rFHvwhBRAgFinJR8KHIrCdTkZcZ",
+        "subj" : "Angular.js"
+    },
+    {
+        "name" : "CodeWithHarry",
+        "description" : "Bootstrap Tutorial In Hindi ",
+        "url" : "https://www.youtube.com/watch?v=vpAJ0s5S2t0",
+        "subj" : "Bootstrap" 
+    },
+    {
+        "name" : "Apna College",
+        "description" : "Namaste World in Bootstrap | Web Development Course ",
+        "url" : "https://www.youtube.com/watch?v=DUiYVJIVNcA",
+        "subj" : "Bootstrap" 
+    },
+    {
+        "name" : "Thapa Technical ",
+        "description" : "TypeScript Tutorial for Begginer in Hindi",
+        "url" : "https://www.youtube.com/watch?v=Xciunyug99U&list=PLwGdqUZWnOp0xfHQFmlL52b_6-QZ0mnk_",
+        "subj" : "TypeScript" 
+    },
+    {
+        "name" : "Thapa Technical ",
+        "description" : "TypeScript Tutorial for Begginer in Hindi",
+        "url" : "https://www.youtube.com/watch?v=Xciunyug99U&list=PLwGdqUZWnOp0xfHQFmlL52b_6-QZ0mnk_",
+        "subj" : "TypeScript" 
+    },
+    {
+        "name" : "CodeWithHarry",
+        "description" : "Express JS Tutorial in Hindi 🔥✌",
+        "url" : "https://www.youtube.com/watch?v=7H_QH9nipNs",
+        "subj" : "Express.js"
+    },
+    {
+        "name" : "Thapa Technical",
+        "description" : "Express JS Tutorial in Hindi in 2020",
+        "url" : "https://www.youtube.com/watch?v=CgoD3HX1lWY&list=PLwGdqUZWnOp3Vqww2cL5KbDkShj4NMRzk",
+        "subj" : "Express.js"
+    },
+    {
+        "name" : "Sheryians Coding School",
+        "description" : "🚀 Express.js - Learn What Matters: Mastering the Framework | Backend (Node JS) Series",
+        "url" : "https://www.youtube.com/watch?v=pKJ4GGyDgJo",
+        "subj" : "Express.js"
+    },
+    {
+        "name" : "CodeWithHarry",
+        "description" : "Django Tutorial In Hindi",
+        "url" : "https://www.youtube.com/watch?v=JxzZxdht-XY",
+        "subj" : "Django"
+    },
+    {
+        "name": "Apna College",
+        "description": "Complete Git and GitHub Tutorial for Beginners",
+        "url": "https://www.youtube.com/watch?v=Ez8F0nW6S-w&t=3511s",
+        "subj": "Git & GitHub"
+    },
+    {
+        "name": "CodeWithHarry",
+        "description": "Git & GitHub Tutorial For Beginners In Hindi - हिंदी में",
+        "url": "https://www.youtube.com/watch?v=gwWKnnCMQ5c&t=10s",
+        "subj": "Git & GitHub"
+    },
+    {
+        "name": "Kunal Kushwaha",
+        "description": "Complete Git and GitHub Tutorial",
+        "url": "https://www.youtube.com/watch?v=apGV9Kg7ics&t=274s",
+        "subj": "Git & GitHub"
+    },
+    {
+        "name": "Anuj Bhaiya",
+        "description": "Learn complete Git and Github in 1 video | Open-source Contribution | Linux commands & tricks",
+        "url": "https://www.youtube.com/watch?v=uaeKhfhYE0U",
+        "subj": "Git & GitHub"
+    },
+    {
+        "name" : "Apna College",
+        "description" : "GSoC 2024 Roadmap | Google Summer of Code | Complete Guide",
+        "url" : "https://www.youtube.com/watch?v=gNGa9p_x0EI&t=802s",
+        "subj" :"GSOC"
+    },
+    {
+        "name" : "Shivam Chaudhary",
+        "description" : "Google Summer of Code: Complete guide to clear GSoC 2023 | With Tips & Tricks | Complete Roadmap.",
+        "url" : "https://www.youtube.com/watch?v=qudrqu7GFmY&t=1283s",
+        "subj" :"GSOC"
+    },
+    {
+        "name" : "Harkirat Singh",
+        "description" : "GSoc 2024: How to make open source contributions? | Google Summer of Code",
+        "url" : "https://www.youtube.com/watch?v=Bp1g3guEO0I&t=79s",
+        "subj" : "GSOC"
+    },
+    {
+        "name" : "Piyush Garg",
+        "description" : "Docker In One Shot - Part 1",
+        "url" : "https://www.youtube.com/watch?v=31k6AtW-b3Y&t=660s",
+        "subj" : "Docker"
+    }
+
+   
+]

@@ -1,38 +1,356 @@
-.App {
-  text-align: center;
+/*=================================================== Globlly =================================================*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Roboto&family=Ubuntu:ital@1&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+body{
+  font-family: 'Ubuntu', sans-serif;
+ 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.backgroundDark{
+ background-color: #160133;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.backgroundLight{
+ background-color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.darkText{
+  color: #160133;
+}
+
+.lightText{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+/*=================================================== Navbar =================================================*/
+
+.nav-brand h1 {
+  font-size: 30px;
+  font-weight: 900;
+  background-image: url(https://img.freepik.com/premium-photo/rainbow-flag-using-bits-binary-code-style-internet-culture_921860-8636.jpg?size=626&ext=jpg&ga=GA1.1.1378312870.1687680026&semt=ais);
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media(max-width: 500px){
+  .nav-brand h1{
+    font-size: 20px;
+    font-weight: 700;
   }
 }
+
+.category .btn {
+  margin: 0 35px;
+  border-radius: 50px;
+  border: 3px solid #ff6608 !important;
+  /* outline: 3px solid #ff6608; */
+  color: #ff6608 !important;
+  font-size: 20px;
+  
+  /* cursor: pointer; */
+  font-family: 'Roboto', sans-serif;
+}
+
+.category .btn:hover {
+  margin: 0 35px;
+  border-radius: 50px;
+  border: 3px solid #ff6608;
+  outline: none;
+  color: #ff6608;
+
+}
+
+@media (max-width: 768px) {
+   .category .btn {
+    margin: 0 15px;
+    border-radius: 30px;
+    border: 2px solid #ff6608;
+    outline: none;
+    color: #ff6608;
+    font-size: 12px;
+    padding: 3px 0;
+    
+    cursor: pointer;
+  }
+  .category ul li i{
+    font-size: 15px;
+  }
+  .category .btn:hover {
+    margin: 0 15px;
+    border-radius: 30px;
+    border: 2px solid #ff6608;
+    outline: none;
+    color: #ff6608;
+    font-size: 10px;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+}
+
+.category img{
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+}
+ @media(max-width: 768px){
+  .category img{
+    width: 20px;
+    height: 25px;
+  }
+ 
+ }
+
+ .navbar .simple-text {
+  font-size: 30px;
+  text-decoration: 5px solid #ff6608 underline;
+}
+.navbar .special-text {
+  font-size: 30px;
+  color: #ff6608;
+  
+}
+
+
+
+
+/* Search-bar */
+.search-container{
+  border: 2px solid #ff6608;
+}
+
+/*=================================================== HomePage =================================================*/
+
+.home h1 {
+  font-size: 70px !important;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+@media (max-width: 768px) {
+  .home h1 {
+    font-size: 40px !important;
+  }
+}
+.simple-text {
+  text-decoration: 10px solid #ff6608 underline;
+}
+.special-text {
+  color: #ff6608;
+  
+}
+
+.home p{
+  text-align: justify;
+}
+
+.homepagebtn button{
+background: transparent;
+border: 2px solid #ff6608;
+border-top-right-radius: 6px;
+border-bottom-left-radius: 12px;
+color: #ff6608;
+padding: 0 10px;
+font-size: 20px;
+}
+
+.homepagebtn button:hover{
+  border: 2px dashed #ff6608;
+   }
+
+   @media(max-width: 768px){
+    .homepagebtn button{
+      background: transparent;
+      border: 2px solid #ff6608;
+      border-top-right-radius: 6px;
+      border-bottom-left-radius: 12px;
+      color: #ff6608;
+      padding: 0 6px;
+      font-size: 10px;
+      }
+   }
+   .typing-text{
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ff6608;
+
+   }
+
+
+   /*=================================================== Modal =================================================*/
+
+   .modal-content{
+    border: 2px solid #ff6608;
+    border-radius: 10px;
+   }
+
+   .modal-body{
+    text-align: center;
+   }
+   .modal-body ul li{
+    margin: 20px 0;
+    font-size: 25px;
+   
+  
+   }
+  .modal-options {
+    width: max-content;
+    position: relative;
+    cursor: pointer;
+    left: 38%;
+    
+  }
+  
+  .modal-options::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 4px;
+    width: 100%;
+    left: 0;
+    background-color: #ff6608;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
+  }
+  .modal-options:hover::after{
+    transform: scaleX(1);
+
+  }
+
+  
+
+  .fa-solid{
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  /*=================================================== Footer =================================================*/
+
+
+  .github-icon i{
+    font-size: 50px;
+    cursor: pointer;
+  }
+
+  .footerText{
+    font-size: 20px;
+    
+    
+  }
+
+  .ourname{
+    cursor: pointer;
+    text-decoration: underline 1px #ff6608 solid;
+    color: #ff6608;
+  }
+
+   /*=================================================== CourseCard =================================================*/
+
+ .card{
+  border: none;
+  border-radius: 4px;
+  border: 1px dashed #ff6608;
+ }
+   .card img{
+ height: 250px;
+}
+.card-body .btn{
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0px;
+  
+}
+.sitesbtn .btn{
+  background-color: #ff6608;
+  color: white;
+ height: 35px;
+  border: none;
+  border-radius: 4px;
+}
+
+.sitesbtn .btn:hover{
+  background-color: transparent;
+  border: 2px dashed #ff6608 ;
+  color: #ff6608;
+}
+
+   /*=================================================== LinksCard =================================================*/
+
+.link-card{
+  border: 2px dashed #ff6608;
+  border-radius: 4px;
+  height: 200px;
+}
+.link-card .name{
+/* font-size: 1.5rem; */
+color: #ff6608;
+}
+.link-card button{
+  background-color: #ff6608;
+  color: white;
+ height: 35px;
+  border: none;
+  border-radius: 4px;
+  /* margin-top: 35px; */
+}
+
+.link-card button:hover{
+background-color: transparent;
+border: 2px dashed #ff6608 ;
+color: #ff6608;
+}
+
+
+
+.link-card i{
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.link-card button i{
+  font-size: 18px;
+  margin: 0 5px;
+}
+
+ /*=================================================== Search =================================================*/
+ .search-input{
+  border: 2px solid #ff6608;
+  border-radius: 10px;
+ }
+
+ .search-input input {
+  border: none;
+  background-color: transparent;
+  color: #ff6608;
+
+}
+
+.search-input input:focus {
+  background-color: transparent; /* or any other color you prefer */
+}
+.search-input input::placeholder{
+  color: #ff6608;
+}
+
+ 
+
+ .search-input i{
+  margin: 4px;
+  padding: 3px;
+  color: #ff6608;
+  border-left: 2px solid #ff6608;
+  cursor: pointer;
+  font-size: 25px;
+ }

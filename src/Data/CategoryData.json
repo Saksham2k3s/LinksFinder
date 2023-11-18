@@ -1,0 +1,124 @@
+[
+  {
+    "image": "https://img.freepik.com/free-photo/programming-background-collage_23-2149901776.jpg?size=626&ext=jpg&ga=GA1.2.1378312870.1687680026&semt=sph",
+    "name": "HTML",
+    
+    "description": "HTML is a markup language used by the browser to manipulate text, images, and other content, in order to display it in the required format.",
+    "category" : "Frontend"
+  },
+  {
+    "image": "https://img.freepik.com/premium-photo/seo-search-engine-optimization-text-wooden-cube-blocks-table-background-idea-strategy-advertising-marketing-keyword-content-concept_301012-3474.jpg?size=626&ext=jpg&ga=GA1.1.1378312870.1687680026&semt=sph",
+    "name": "CSS",
+    
+    "description": "HTML is a markup language used by the browser to manipulate text, images, and other content, in order to display it in the required format.",
+    "category" : "Frontend"
+  },
+  {
+    "image": "https://img.freepik.com/free-vector/programmers-using-javascript-programming-language-computer-tiny-people-javascript-language-javascript-engine-js-web-development-concept-bright-vibrant-violet-isolated-illustration_335657-986.jpg?size=626&ext=jpg&ga=GA1.1.1378312870.1687680026&semt=sph",
+    "name": "JavaScript",
+    
+    "description": "HTML is a markup language used by the browser to manipulate text,images, and other content, in order to display it in the required format.",
+    "category" : "Languages"
+  },
+  {
+    "image": "https://www.freecodecamp.org/news/content/images/size/w2000/2022/11/What-is.png",
+    "name": "Node.js",
+    
+    "description": "HTML is a markup language used by the browser to manipulate text, images, and other content, in order to display it in the required format.",
+    "category" : "Backend"
+  },
+  {
+    "image": "https://img.freepik.com/free-vector/atom-illustration-model-with-electrons-neutron-isolated_1284-53084.jpg?size=626&ext=jpg&ga=GA1.1.163069787.1698077815&semt=sph",
+    "name": "React.js",
+    
+    "description": "HTML is a markup language used by the browser to manipulate text, s, and other content, in order to display it in the required format.",
+    "category" : "Frontend"
+  },
+  {
+    "image": "https://as2.ftcdn.net/v2/jpg/03/79/06/43/1000_F_379064396_WNEARWWuQTXmTlg1hNGWvoCHEUdvWy0t.jpg",
+    "name": "Vue.js",
+    
+    "description": "HTML is a markup language used by the browser to manipulate text, images, and other content, in order to display it in the required format.",
+    "category" : "Frontend"
+  },
+  {
+    "image": "https://as2.ftcdn.net/v2/jpg/02/95/03/85/1000_F_295038583_mn0uxJ6A0YO57HA4xXQqHFUjiW1BcqBE.jpg",
+    "name": "Angular.js",
+    
+    "description": "HTML is a markup language used by the browser to manipulate text, images, and other content, in order to display it in the required format.",
+    "category" : "Frontend"
+  },
+  {
+    "image": "https://img.freepik.com/premium-vector/alphabet-text-symbol-flat-icon-b-letter-with-long-shadow-sign-template_754537-6037.jpg?size=626&ext=jpg&ga=GA1.1.1378312870.1687680026&semt=sph",
+    "name": "Bootstrap",
+    
+    "description": "HTML is a markup language used by the browser to manipulate text, images, and other content, in order to display it in the required format.",
+    "category" : "Frontend"
+  },
+  {
+    "image": "https://img.freepik.com/free-photo/close-up-woman-s-hand-holding-white-capital-alphabet-c_23-2148188527.jpg?size=626&ext=jpg&ga=GA1.1.1378312870.1687680026&semt=ais",
+    "name": "'C'",
+    
+    "description": "HTML is a markup language used by the browser to manipulate text, images, and other content, in order to display it in the required format.",
+    "category" : "Languages"
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBiwFHvV0J9EU0UXWQY7cqDJ3h79QS5W-N3w&usqp=CAU",
+    "name": "C++",
+    
+    "description": "HTML is a markup language used by the browser to manipulate text, images, and other content, in order to display it in the required format.",
+    "category" : "Languages"
+  },
+  {
+    "image": "https://img.freepik.com/premium-vector/special-programming-language-computing-platform-ad_81534-2981.jpg?size=626&ext=jpg&ga=GA1.1.1378312870.1687680026&semt=sph",
+    "name": "Java",
+    
+    "description": "HTML is a markup language used by the browser to manipulate text, images, and other content, in order to display it in the required format.",
+    "category" : "Languages"
+  },
+  {
+    "image": "https://img.freepik.com/premium-photo/coding-programming-site-application-laptop_272306-134.jpg?size=626&ext=jpg&ga=GA1.1.1378312870.1687680026&semt=sph",
+    "name": "Python",
+    
+    "description": "HTML is a markup language used by the browser to manipulate text, images, and other content, in order to display it in the required format.",
+    "category" : "Languages"
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkpYtr6aU_pYstP09836x3Mghk9bbZDIwIrQ&usqp=CAU",
+    "name" : "TypeScript",
+    
+    "description" : "TypeScript is a statically-typed superset of JavaScript that adds optional static typing and other advanced features.",
+    "category" : "Languages"
+  },
+  {
+    "image" : "https://miro.medium.com/v2/resize:fit:1400/1*XP-mZOrIqX7OsFInN2ngRQ.png",
+    "name" : "Express.js",
+    
+    "description" : " Express.js is a fast, minimalist, and flexible Node.js web application framework designed for building robust and scalable web and mobile applications.",
+    "category" : "Backend"
+  },
+  {
+    "image" : "https://149695847.v2.pressablecdn.com/wp-content/uploads/2023/04/django-logo-negative.1d528e2cb5fb.png",
+    "name" : "Django",
+    "description" : "Django is a high-level web framework for building secure and scalable web applications rapidly with Python.",
+    "category" : "Backend"
+  },
+  {
+    "image": "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png",
+    "name": "Git & GitHub",
+    "description": "Git is Version control system while GitHub is Web platform for Git repositories.",
+    "category": "open source"
+  },
+  {
+    "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/GSoC-icon.svg/1200px-GSoC-icon.svg.png",
+    "name" : "GSOC",
+    "description" : "GSoC: Global program encouraging student collaboration on open-source projects.",
+    "category" : "open source"
+  },
+  {
+    "image" : "https://bunnyacademy.b-cdn.net/what-is-docker.png",
+    "name" : "Docker",
+    "description" : "Docker simplifies application deployment using lightweight containers.",
+    "category" :"open source"
+  }
+]
