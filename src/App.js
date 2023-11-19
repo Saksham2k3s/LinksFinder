@@ -25,7 +25,7 @@ function App() {
 <Search/>
  <Routes> 
   <Route  path='/' element={<HomePage/>} />
-  <Route  path='/LinksFinder/' element={<HomePage/>} />
+  <Route  path='/LinksFinder' element={<HomePage/>} />
    <Route path='/category/:category' element={<CategoryCourse/>} /> 
   <Route path='/:category/:name' element={<SubLinks/>} />
   <Route path='/nofound' element={<NoFound/>} />
