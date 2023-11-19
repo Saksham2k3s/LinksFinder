@@ -29,7 +29,29 @@ body{
   color: white;
 }
 
+.fa-copy:hover {
+  transform: scale(1.1);
+}
 
+.copy-popup {
+  position: absolute;
+  top: -25px;
+  right: 75px;
+  background-color: #4caf50;
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  z-index: 1;
+  font-size: 14px;
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.copy-popup.show {
+  display: block;
+  opacity: 1; /* Show the tooltip with full opacity */
+}
 
 /*=================================================== Navbar =================================================*/
 
