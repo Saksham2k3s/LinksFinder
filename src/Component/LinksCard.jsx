@@ -1,15 +1,23 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useContext} from "react";
+import { useContext, useState } from "react";
 import HooksContext from "./Context/HooksContext";
 function LinksCard(props) {
   const context = useContext(HooksContext);
   const { mode } = context;
   const { name, description, url,  } = props.links;
  
+  const [showCopyPopup, setShowCopyPopup] = useState(false);
+
   const handleCopy = () => {
     navigator.clipboard.writeText(url);
-  }
+    setShowCopyPopup(true);
+
+    // Hide the popup after a short delay
+    setTimeout(() => {
+      setShowCopyPopup(false);
+    }, 1000);
+  };
 
   //Sharing functionality
 
@@ -37,7 +45,13 @@ function LinksCard(props) {
         <div className="card-body h-100">
           <div className=" d-flex justify-content-around mx-1">
             <div className="name h4">{name}</div>
+            <div>
             <i className={`fa-regular fa-copy  ${mode === false ? "darktext": "lightText"}`} onClick={handleCopy} ></i>
+            {/* Custom Copy Popup */}
+            <div className={`copy-popup ${showCopyPopup ? 'show' : ''}`}>
+              Copied to clipboard!
+            </div>
+            </div>
             <i className={`fa-solid fa-share-nodes  ${mode === false ? "darktext": "lightText"}`} onClick={handleShare}></i>
      
           </div>
