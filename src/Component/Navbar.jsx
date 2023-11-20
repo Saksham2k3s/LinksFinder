@@ -16,8 +16,10 @@ function Navbar() {
       <nav className="px-3 py-2"  style={{background:`${mode === true ? '#160133': 'white'}`}}>
         <div className="navbar ">
           <div className="nav-brand">
+            <a href="/LinksFinder">
           <span className={`simple-text ${mode === false ? 'darkText': 'lightText'}`}>Links</span>
           <span className="special-text">Finder</span>
+          </a>
           </div>
           <div className="category ">
             <ul className="ms-auto  d-flex ">
