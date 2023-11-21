@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/LinksFinder/static/css/main.2ff76cbb.css",
-    "main.js": "/LinksFinder/static/js/main.c8641dd1.js",
+    "main.js": "/LinksFinder/static/js/main.c0bcb055.js",
     "index.html": "/LinksFinder/index.html",
     "main.2ff76cbb.css.map": "/LinksFinder/static/css/main.2ff76cbb.css.map",
-    "main.c8641dd1.js.map": "/LinksFinder/static/js/main.c8641dd1.js.map"
+    "main.c0bcb055.js.map": "/LinksFinder/static/js/main.c0bcb055.js.map"
   },
   "entrypoints": [
     "static/css/main.2ff76cbb.css",
-    "static/js/main.c8641dd1.js"
+    "static/js/main.c0bcb055.js"
   ]
 }
