@@ -17,7 +17,7 @@ function Footer() {
         <i className={`fa-brands fa-github text-${mode === false ? 'dark' : 'light'}`}></i>
         </div>
         <div className='footerText text-center mt-3'>
-            <span className={`${mode === false ? 'darkText' : 'lightText'}`}>Developed By</span> <Link className='ourname' to='https://github.com/Saksham2k3s' target='_blank' >Saksham</Link> <span className={`${mode === false ? 'darkText' : 'lightText'}`}>and</span> <Link to='https://github.com/sakshi2k3' target='_blank' className='ourname'>Sakshi Shrivastava</Link>
+            <span className={`${mode === false ? 'darkText' : 'lightText'}`}>Developed By</span> <Link className='ourname' to='https://github.com/Saksham2k3s' target='_blank' >Saksham</Link> <span className={`${mode === false ? 'darkText' : 'lightText'}`}>and</span> <Link to='https://github.com/sakshi2k3' target='_blank' className='ourname'>Open Source Community</Link>
         </div>
         </div>
       </footer>
