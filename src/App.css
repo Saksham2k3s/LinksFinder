@@ -55,9 +55,10 @@ body{
 
 /*=================================================== Navbar =================================================*/
 
+/* Default styles (for small screens) */
 .nav-brand h1 {
-  font-size: 30px;
-  font-weight: 900;
+  font-size: 20px;
+  font-weight: 700;
   background-image: url(https://img.freepik.com/premium-photo/rainbow-flag-using-bits-binary-code-style-internet-culture_921860-8636.jpg?size=626&ext=jpg&ga=GA1.1.1378312870.1687680026&semt=ais);
   background-size: cover;
   background-position: center;
@@ -66,95 +67,118 @@ body{
   color: transparent;
 }
 
-.nav-brand a{
-text-decoration: none;
+.nav-brand a {
+  text-decoration: none;
 }
 
-@media(max-width: 500px){
-  .nav-brand h1{
-    font-size: 20px;
-    font-weight: 700;
-  }
+.nav-brand {
+  padding-bottom: 25px;
+}
+
+.category {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#root > div > nav > div > div.category > ul > li.nav-link.mx-3 {
+  text-align: center;
+  align-self: center;
+}
+
+.category .btn i{
+  font-size: 10px;
 }
 
 .category .btn {
-  margin: 0 35px;
-  border-radius: 50px;
-  border: 3px solid #ff6608 !important;
-  /* outline: 3px solid #ff6608; */
+  margin: 5px auto; /* Center the buttons horizontally */
+  border-radius: 30px;
+  border: 2px solid #ff6608;
   color: #ff6608 !important;
-  font-size: 20px;
-  
-  /* cursor: pointer; */
+  font-size: 12px;
+  padding: 3px 0;
   font-family: 'Roboto', sans-serif;
+  cursor: pointer;
 }
 
 .category .btn:hover {
-  margin: 0 35px;
-  border-radius: 50px;
-  border: 3px solid #ff6608;
+  border: 2px solid #ff6608;
   outline: none;
   color: #ff6608;
-
 }
 
-@media (max-width: 768px) {
-   .category .btn {
-    margin: 0 15px;
-    border-radius: 30px;
-    border: 2px solid #ff6608;
-    outline: none;
-    color: #ff6608;
-    font-size: 12px;
-    padding: 3px 0;
-    
-    cursor: pointer;
-  }
-  .category ul li i{
-    font-size: 15px;
-  }
-  .category .btn:hover {
-    margin: 0 15px;
-    border-radius: 30px;
-    border: 2px solid #ff6608;
-    outline: none;
-    color: #ff6608;
-    font-size: 10px;
-    letter-spacing: 1px;
-    cursor: pointer;
-  }
-}
-
-.category img{
-  width: 45px;
-  height: 45px;
+.category img {
+  width: 20px;
+  height: 25px;
   cursor: pointer;
 }
- @media(max-width: 768px){
-  .category img{
-    width: 20px;
-    height: 25px;
+
+/* Medium screens and larger */
+@media (min-width: 501px) {
+  .nav-brand h1 {
+    font-size: 30px;
+    font-weight: 900;
   }
- 
- }
 
- .navbar .simple-text {
-  font-size: 30px;
-  text-decoration: 5px solid #ff6608 underline;
+  .category .btn {
+    margin: 0 35px;
+    border-radius: 50px;
+    font-size: 20px;
+  }
+
+  .category .btn i{
+    font-size: 20px;
+  }
+
+  .category img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .navbar .simple-text {
+    font-size: 30px;
+    text-decoration: 5px solid #ff6608 underline;
+  }
+
+  .navbar .special-text {
+    font-size: 30px;
+    color: #ff6608;
+  }
 }
-.navbar .special-text {
-  font-size: 30px;
-  color: #ff6608;
+
+/* Large screens and larger */
+@media (min-width: 769px) {
+  .category .btn {
+    margin: 0 35px;
+    border-radius: 50px;
+    font-size: 20px;
+  }
+
+  .category img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .category .btn i{
+    font-size: 30px;
+  }
   
+  .category ul li i {
+    font-size: 15px;
+  }
+
+  .navbar .simple-text {
+    font-size: 30px;
+    text-decoration: 5px solid #ff6608 underline;
+  }
+
+  .navbar .special-text {
+    font-size: 30px;
+    color: #ff6608;
+  }
 }
 
-
-
-
-/* Search-bar */
-.search-container{
-  border: 2px solid #ff6608;
-}
 
 /*=================================================== HomePage =================================================*/
 
