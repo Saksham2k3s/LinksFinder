@@ -10,7 +10,8 @@
     "image": "https://img.freepik.com/premium-photo/seo-search-engine-optimization-text-wooden-cube-blocks-table-background-idea-strategy-advertising-marketing-keyword-content-concept_301012-3474.jpg?size=626&ext=jpg&ga=GA1.1.1378312870.1687680026&semt=sph",
     "name": "CSS",
     
-    "description": "HTML is a markup language used by the browser to manipulate text, images, and other content, in order to display it in the required format.",
+    "description": 
+    "Cascading Style Sheets, or CSS, is a fundamental technology in web development that allows designers to control the presentation and layout of HTML documents. CSS is a styling language used to describe the look and formatting of a document written in HTML or XML. It enables the separation of content from design, making it easier to maintain and update websites. CSS operates on a cascade principle, where multiple style sheets can influence the presentation of a document. Styles are applied in a specific order, with later styles potentially overriding earlier ones. This flexibility allows for global styling rules and local overrides.",
     "category" : "Frontend"
   },
   {
@@ -31,7 +32,7 @@
     "image": "https://img.freepik.com/free-vector/atom-illustration-model-with-electrons-neutron-isolated_1284-53084.jpg?size=626&ext=jpg&ga=GA1.1.163069787.1698077815&semt=sph",
     "name": "React.js",
     
-    "description": "HTML is a markup language used by the browser to manipulate text, s, and other content, in order to display it in the required format.",
+    "description": "React is a free and open-source front-end JavaScript library for building user interfaces based on components. It is maintained by Meta and a community of individual developers and companies. React can be used to develop single-page, mobile, or server-rendered applications with frameworks like Next.js",
     "category" : "Frontend"
   },
   {
