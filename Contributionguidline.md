@@ -1,3 +1,6 @@
+
+#### Contributing Guidelines
+
 ### Add new link or course
 
 **Add New Courses:**
@@ -24,3 +27,42 @@
   ```
 
   If the course already exists in the app and you want to add new links for it, directly go to LinksData.json and add the links in the specified format.
+
+  ### Creating a New Issue
+
+  Bug Report
+
+  > If you've encountered a bug or unexpected behavior, please provide the following details:
+
+  **Description of the Bug:**
+
+  > A clear and concise description of what the bug is.
+
+  **Steps to Reproduce:**
+
+  > Clearly outline the steps to reproduce the issue.
+
+  **Expected Behavior:**
+
+  > Describe what you expected to happen.
+
+  **Actual Behavior:**
+
+  > Explain what actually happened.
+
+  **Screenshots:**
+
+  > If applicable, add screenshots to help illustrate the problem.
+
+  Feature Request
+
+  > If you have a feature request or enhancement in mind, please provide the following details:
+
+  **Description:**
+
+  > Clearly describe the feature you'd like to see or the problem you're trying to solve.
+
+  **Use Case:**
+
+  > Provide a use case or scenario for the proposed feature.
+
