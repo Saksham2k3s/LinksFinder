@@ -27,7 +27,7 @@ function HomePage() {
             }`}
           >
             An innovative platform designed to simplify the process of finding
-            high-quality learning resources. FindTheBest aims to provide a
+            high-quality learning resources. LinksFinder aims to provide a
             centralized hub where you can effortlessly discover the most
             valuable and up-to-date video tutorials across the digital
             landscape.
