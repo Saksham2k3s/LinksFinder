@@ -1,28 +1,26 @@
 import React from "react";
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";  // Import useNavigate
+import { useNavigate } from "react-router-dom"; // Import useNavigate
 import CategoryData from "../Data/CategoryData.json";
-
 
 function Search() {
   const [search, setSearch] = useState(""); // Add state for the search term
-  const navigate = useNavigate();  // Initialize useNavigate
+  const navigate = useNavigate(); // Initialize useNavigate
 
   const onchange = (e) => {
     setSearch(e.target.value);
-   
   };
 
   const handleSearch = () => {
     let foundCourse = CategoryData.find(
       (course) => course.name.toLowerCase() === search.toLowerCase()
     );
-  
+
     if (foundCourse) {
       // Use navigate to programmatically navigate
       navigate(`/${foundCourse.category}/${foundCourse.name}`);
     } else {
-      navigate('/nofound')
+      navigate("/nofound");
     }
   };
 
@@ -61,5 +59,3 @@ function Search() {
 }
 
 export default Search;
-
-                   

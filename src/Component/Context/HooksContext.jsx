@@ -1,5 +1,5 @@
-import { createContext } from 'react';
+import { createContext } from "react";
 
-const HooksContext = createContext()
+const HooksContext = createContext();
 
 export default HooksContext;

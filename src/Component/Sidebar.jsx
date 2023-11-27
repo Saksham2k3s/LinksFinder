@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import CategoryData from '../Data/CategoryData.json'
+import React, { useState, useEffect } from "react";
+import CategoryData from "../Data/CategoryData.json";
 
 const Sidebar = () => {
   // const categories = [
@@ -10,17 +10,15 @@ const Sidebar = () => {
   //   'DevOps',
   //   'Graphic Designing',
   // ];
-  const categories = [...new Set(CategoryData.map((items) => items.category))]
+  const categories = [...new Set(CategoryData.map((items) => items.category))];
 
   const [categoryIndex, setCategoryIndex] = useState(0);
   const currentCategory = categories[categoryIndex];
-  const [typedText, setTypedText] = useState('');
-
-  
+  const [typedText, setTypedText] = useState("");
 
   useEffect(() => {
     let index = 0;
-    let text = '';
+    let text = "";
     const intervalId = setInterval(() => {
       if (index <= currentCategory.length) {
         text = currentCategory.slice(0, index);

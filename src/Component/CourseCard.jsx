@@ -4,10 +4,6 @@ import { useContext } from "react";
 import HooksContext from "./Context/HooksContext";
 import StyledModal from "./StyledModal";
 
-
-
-
-
 function CourseCard(props) {
   const context = useContext(HooksContext);
   const { mode } = context;

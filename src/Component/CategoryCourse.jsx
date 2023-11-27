@@ -1,35 +1,32 @@
-import React from 'react'
-import CategoryData from '../Data/CategoryData.json'
-import CourseCard from './CourseCard'
-import { useState, useEffect } from 'react'
+import React from "react";
+import CategoryData from "../Data/CategoryData.json";
+import CourseCard from "./CourseCard";
+import { useState, useEffect } from "react";
 
-import { useParams } from 'react-router-dom'
+import { useParams } from "react-router-dom";
 function CategoryCourse() {
   const [courses, setCourses] = useState([]);
-  const {category} = useParams()
+  const { category } = useParams();
   useEffect(() => {
-    
-    const filteredCourses = CategoryData.filter((course) => category === course.category);
+    const filteredCourses = CategoryData.filter(
+      (course) => category === course.category
+    );
     setCourses(filteredCourses);
-  }, [category]);  
- 
+  }, [category]);
 
   return (
-   <>
-   <div className="container">
-    <div className="row">
-        {
-         courses.map((course, idx) => (
+    <>
+      <div className="container">
+        <div className="row">
+          {courses.map((course, idx) => (
             <div className="col-md-4" key={idx}>
-          <CourseCard course={course}/>
+              <CourseCard course={course} />
             </div>
-         ))
-        }
-    </div>
-   </div>
-   
-   </>
-  )
+          ))}
+        </div>
+      </div>
+    </>
+  );
 }
 
-export default CategoryCourse
+export default CategoryCourse;

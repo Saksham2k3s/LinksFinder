@@ -30,8 +30,6 @@ function Cars() {
 
   return (
     <>
-     
-
       <div className="container mt-5">
         <div className="row coursecontainer px-4">
           {currdata.map((course, idx) => (
