@@ -247,6 +247,11 @@ font-size: 20px;
 
    .modal-body{
     text-align: center;
+    display: flex;
+    justify-content: center;
+   }
+   .modal-body ul{
+    padding: 0;
    }
    .modal-body ul li{
     margin: 20px 0;
@@ -258,7 +263,7 @@ font-size: 20px;
     width: max-content;
     position: relative;
     cursor: pointer;
-    left: 38%;
+    /* left: 38%; */
     
   }
   
