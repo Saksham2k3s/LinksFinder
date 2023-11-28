@@ -253,6 +253,12 @@
         "description" : "Docker In One Shot - Part 1",
         "url" : "https://www.youtube.com/watch?v=31k6AtW-b3Y&t=660s",
         "subj" : "Docker"
+    },
+    {
+        "name": "JavaScript Mastery",
+        "description": "Next.js turorial for beginers 🔥",
+        "url": "https://youtu.be/wm5gMKuwSYk?si=4e-PZgH07mcoNqxX",
+        "subj": "Next.js"
     }
 
    
