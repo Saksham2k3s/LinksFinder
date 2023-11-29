@@ -121,5 +121,11 @@
     "name" : "Docker",
     "description" : "Docker simplifies application deployment using lightweight containers.",
     "category" :"open source"
+  },
+  {
+    "image" : "https://mobisoftinfotech.com/resources/wp-content/uploads/2022/04/next-JS-framework.png",
+    "name" : "Next.js",
+    "description" : "Next.js is a React framework that gives you building blocks to create web applications..",
+    "category" :"Frontend"
   }
 ]
