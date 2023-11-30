@@ -69,14 +69,21 @@
         "name" : "Apna College",
         "description" : "C Language Tutorial for Beginners (with Notes & Practice Questions)",
         "url" : "https://www.youtube.com/watch?v=irqbmMNs2Bo",
-        "subj" : "C"
+        "subj" : "'C'"
 
     },
     {
         "name" : "CodeWithHarry",
         "description" : "C Programming Tutorial For Beginners: Learn C In Hindi",
         "url" : "https://www.youtube.com/watch?v=YXcgD8hRHYY",
-        "subj" : "C"
+        "subj" : "'C'"
+
+    },
+    {
+        "name" : "Neso Academy",
+        "description" : "C Programming complete course",
+        "url" : "https://www.youtube.com/playlist?list=PLBlnK6fEyqRggZZgYpPMUxdY1CYkZtARR",
+        "subj" : "'C'"
 
     },
     {
