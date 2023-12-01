@@ -13,7 +13,7 @@ const StyledModal = ({ isOpen, title, onClose, children,footer }) => {
 
   return (
     <div className="styled-modal" style={modalStyle}>
-      <div className="content">
+      <div className="content darkText">
         <div className="title">
           <h4>{title}</h4>
           <span className="close" onClick={closeModal}>
