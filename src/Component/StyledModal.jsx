@@ -1,22 +1,26 @@
-
-import React, { useState } from "react";
-
-
-const StyledModal = ({ isOpen, title, onClose, children,footer }) => {
+import React, { useState, useContext } from "react";
+import HooksContext from "./Context/HooksContext";
+const StyledModal = ({ isOpen, title, onClose, children, footer }) => {
+  const context = useContext(HooksContext);
+  const { mode } = context;
   const [modalStyle, setModalStyle] = useState({
-    display: isOpen ? 'block' : 'none',
+    display: isOpen ? "block" : "none",
   });
   const closeModal = () => {
-    setModalStyle({ display: 'none' });
+    setModalStyle({ display: "none" });
     onClose();
   };
 
   return (
     <div className="styled-modal" style={modalStyle}>
-      <div className="content">
+      <div
+        className={`content ${
+          mode === false ? "backgroundLight" : "backgroundDark"
+        }`}
+      >
         <div className="title">
           <h4>{title}</h4>
-          <span className="close" onClick={closeModal}>
+          <span className={`close ${mode === false ? "close" : "closeLight"}`} onClick={closeModal}>
             &times;
           </span>
         </div>
@@ -28,5 +32,3 @@ const StyledModal = ({ isOpen, title, onClose, children,footer }) => {
 };
 
 export default StyledModal;
-
-
