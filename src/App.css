@@ -309,7 +309,7 @@ font-size: 20px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: #fff;
+    /* background: #fff; */
     width: 100%;
     min-width: 20rem;
     max-width: 30rem;
@@ -354,6 +354,9 @@ font-size: 20px;
   /* Hover effect for close button */
   .styled-modal .close:hover {
     color: #000;
+  }
+  .styled-modal .closeLight:hover {
+      color: #fff;
   }
   .styled-modal .footer {
     border-top: 2px solid #ddd;
