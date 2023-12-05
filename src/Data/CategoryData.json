@@ -127,5 +127,17 @@
     "name" : "Next.js",
     "description" : "Next.js is a React framework that gives you building blocks to create web applications..",
     "category" :"Frontend"
+  },
+  {
+    "image" : "https://miro.medium.com/v2/resize:fit:1400/1*__f27S-qQF2CAASt5bOwqg.png",
+    "name" : "Tailwind CSS",
+    "description" : "Tailwind CSS is best used to speed up the development process by writing less code. It comes with a design system that helps maintain consistency across various design requirements like padding, spacing, and so forth; with this, you do not have to worry about creating your design systems.",
+    "category" :"Frontend"
+  },
+  {
+    "image" : "https://www.filepicker.io/api/file/O8dz87hXSheB05h3nO4M",
+    "name" : "Golang",
+    "description" : "Go, or Golang, is an open-source programming language developed by Google. Its simplicity, efficiency, and strong support for concurrent programming make it an ideal choice for building an Image Processing API.",
+    "category" :"Languages"
   }
 ]
