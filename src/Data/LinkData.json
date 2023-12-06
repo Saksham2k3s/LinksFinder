@@ -266,7 +266,26 @@
         "description": "Next.js turorial for beginers 🔥",
         "url": "https://youtu.be/wm5gMKuwSYk?si=4e-PZgH07mcoNqxX",
         "subj": "Next.js"
+    },
+    {
+        "name": "FreeCodeCamp",
+        "description": "Bootstrap Tutorial for beginers 🔥",
+        "url": "https://youtu.be/-qfEOE4vtxE?si=Oc1LW7Sv2jl3Mayv",
+        "subj": "Bootstrap"
+    },
+    {
+        "name": "FreeCodeCamp",
+        "description": "Tailwind CSS turorial for beginers 🔥",
+        "url": "https://youtu.be/ft30zcMlFao?si=tmil10_VnnGOmGzf",
+        "subj": "Tailwind CSS"
+    },
+    {
+        "name": "FreeCodeCamp",
+        "description": "Golang course with Bonus project 🔥",
+        "url": "https://youtu.be/un6ZyFkqFKo?si=nvpvp2jV-enc0R6m",
+        "subj": "Golang"
     }
+    
 
    
 ]
