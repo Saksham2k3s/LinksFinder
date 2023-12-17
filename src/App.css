@@ -494,3 +494,16 @@ color: #ff6608;
   font-size: 25px;
  }
 
+ .dropdown{
+  background-color: #160133;
+  color: #ff6608;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+ }
+
+ .dropdown-row{
+  cursor: pointer;
+  text-align: start;
+  margin: 10px 20px;
+ }
