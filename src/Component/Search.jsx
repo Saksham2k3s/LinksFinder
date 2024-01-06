@@ -9,7 +9,7 @@ function Search() {
   const navigate = useNavigate();
 
   const onchange = (e) => {
-    if (search.value === "" || search === null) setFilterData([]);
+    if (search === "" || search === null) setFilterData([]);
     setSearch(e.target.value);
     const filter = CategoryData.filter((course) =>
       course.name.toLowerCase().includes(e.target.value.toLowerCase())
