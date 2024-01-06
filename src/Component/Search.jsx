@@ -4,26 +4,25 @@ import { useNavigate } from "react-router-dom"; // Import useNavigate
 import CategoryData from "../Data/CategoryData.json";
 
 function Search() {
-  const [search, setSearch] = useState(""); 
+  const [search, setSearch] = useState("");
   const [filterData, setFilterData] = useState([]);
-  const navigate = useNavigate(); 
- 
+  const navigate = useNavigate();
+
   const onchange = (e) => {
-    if(search.value === "" || search === null) setFilterData([])
+    if (search.value === "" || search === null) setFilterData([]);
     setSearch(e.target.value);
     const filter = CategoryData.filter((course) =>
-    course.name.toLowerCase().includes(e.target.value.toLowerCase())
-  );
-  setFilterData(filter);
+      course.name.toLowerCase().includes(e.target.value.toLowerCase())
+    );
+    setFilterData(filter);
   };
 
   const handleSearch = () => {
     let foundCourse = CategoryData.find(
-      (course) =>  course.name.toLowerCase() === search.toLowerCase()
+      (course) => course.name.toLowerCase() === search.toLowerCase()
     );
 
     if (foundCourse) {
-      
       navigate(`/${foundCourse.category}/${foundCourse.name}`);
     } else {
       navigate("/nofound");
@@ -52,18 +51,21 @@ function Search() {
                     className="fa-solid fa-magnifying-glass"
                     onClick={handleSearch}
                   ></i>
-                 
                 </div>
-                <div className="dropdown"  >
-                    {
-                      filterData.map((items)=>(
-                        <div className="dropdown-row" key={items.name}     onClick={() => {
-                          setFilterData([]); // Ensure the correct case is used here
-                          navigate(`/${items.category}/${items.name}`);
-                        }} >{items.name}</div>
-                      ))
-                    }
-                  </div>
+                <div className={`dropdown ${search === "" ? "d-none" : ""}`}>
+                  {filterData.map((items) => (
+                    <div
+                      className="dropdown-row"
+                      key={items.name}
+                      onClick={() => {
+                        setFilterData([]); // Ensure the correct case is used here
+                        navigate(`/${items.category}/${items.name}`);
+                      }}
+                    >
+                      {items.name}
+                    </div>
+                  ))}
+                </div>
               </form>
             </div>
             <div className="col-md-2"></div>
