@@ -284,8 +284,19 @@
         "description": "Golang course with Bonus project 🔥",
         "url": "https://youtu.be/un6ZyFkqFKo?si=nvpvp2jV-enc0R6m",
         "subj": "Golang"
-    }
-    
+    },
+    {
+        "name" : "CodeWithHarry",
+        "description" : "Bootstrap Tutorial In Hindi ",
+        "url" : "https://www.youtube.com/watch?v=vpAJ0s5S2t0",
+        "subj" : "Bootstrap" 
+    },
+    {
+      "name" : "Chai aur Code",
+      "description" : "The Goal of this course is to get you freelance ready as a full stack MERN developer.",
+      "url" : "https://www.youtube.com/watch?v=OgS1ZWZItno&list=PLu71SKxNbfoBAaWGtn9GA2PTw0HO0tXzq",
+      "subj" : "Next.js"
+    } 
 
    
 ]
